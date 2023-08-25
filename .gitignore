@@ -32,3 +32,10 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Do not commit the Smile CDR Docker Image(s)
+./images/*
+
+# Mac Os
+.DS_Store
+
