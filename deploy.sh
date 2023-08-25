@@ -1,6 +1,7 @@
 #!/bin/sh
 # start the image
-
+echo 'create demo-network in docker'
+docker network create demo-network
 echo 'stopping smilecdr...'
 docker stop smilecdr-2023.05.R01
 docker rm smilecdr-2023.05.R01
