@@ -38,4 +38,14 @@ terraform.rc
 
 # Mac Os
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore env files
+.env
+
 
