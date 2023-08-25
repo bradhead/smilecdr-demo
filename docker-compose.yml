@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   smilecdr:
-    container_name: smilecdr-2023.05.R01
+    container_name: smilecdr
     image: smilecdr:2023.05.R01
     ports:
       - "8000:8000"
