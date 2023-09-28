@@ -5,10 +5,10 @@ copy the smilecdr-{$version}-docker.tar file into the docker-image folder.
 
 then on command line:
 
-1. cd docker-image
-2. sh load.sh
-3. cd ..
-4. docker compose up
+```shell
+sh deploy.sh
+```
+
 
 You must have docker installed first.
 
